@@ -1,0 +1,7 @@
+torch==2.13.0
+numpy==2.5.3
+scipy==1.18.1
+h5py==3.16.0
+matplotlib==3.9.4
+pyparsing==3.2.3
+pytest==9.1.1

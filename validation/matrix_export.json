@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "new_prediction_cells": 8160,
+  "reused_prediction_cells": 600,
+  "total_prediction_cells": 8760,
+  "matrix_sha256": "4d7315e034e28ca9baddb2ed1e52789d2a5ab3337887df367f91f26376d2e552",
+  "checkpoint_identity": "source"
+}

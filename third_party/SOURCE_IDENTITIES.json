@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "project": "PCIA",
+      "url": "https://raw.githubusercontent.com/cgye96/A_Closer_Look_At_3DFSL/8345631cd92987198eabf523eba3ce657597fd37/backbone/dgcnn/dgcnn.py",
+      "revision": "8345631cd92987198eabf523eba3ce657597fd37",
+      "upstream_sha256": "63ce2196696ad0d460c6a4896c85185b87f569f1928860cff174ffeab3a0eb11",
+      "release_file": "sac/vendor/dgcnn.py",
+      "local_sha256": "63ce2196696ad0d460c6a4896c85185b87f569f1928860cff174ffeab3a0eb11",
+      "byte_identical": true
+    },
+    {
+      "project": "PCIA",
+      "url": "https://raw.githubusercontent.com/cgye96/A_Closer_Look_At_3DFSL/8345631cd92987198eabf523eba3ce657597fd37/fsl_head/pcia.py",
+      "revision": "8345631cd92987198eabf523eba3ce657597fd37",
+      "upstream_sha256": "af4d38441bf5258c02bf108132ee853ebdc696467d4c128fc880dddac9b66a4e",
+      "release_file": "sac/vendor/pcia.py",
+      "local_sha256": "02ce38bb4d75db4a1dc4c50ef3d66c8e79fc839f1a2df3054b24341a9c29585c",
+      "byte_identical": false,
+      "retained_definitions": [
+        "PCIA",
+        "euclidean_dist",
+        "euclidean_dist_batch",
+        "cos_similarity",
+        "top_cos_similarity",
+        "cos_similarity_batch",
+        "knn_point",
+        "topk",
+        "square_distance",
+        "index_points"
+      ],
+      "all_retained_definitions_ast_identical": true
+    },
+    {
+      "project": "HPR",
+      "url": "https://raw.githubusercontent.com/Jonathan-UCAS/HPR/169fe6e94e97c940b05950af79aa1130fd65d725/hyptorch/pmath.py",
+      "revision": "169fe6e94e97c940b05950af79aa1130fd65d725",
+      "upstream_sha256": "ea059fc02afb32f3d2eae85fbcadc04b61b821aae90f01bbea7bb03293efd3f3",
+      "release_file": "sac/vendor/hpr_pmath.py",
+      "local_sha256": "ea059fc02afb32f3d2eae85fbcadc04b61b821aae90f01bbea7bb03293efd3f3",
+      "byte_identical": true
+    },
+    {
+      "project": "ModelNet-C",
+      "url": "https://raw.githubusercontent.com/jiawei-ren/ModelNet-C/0c82ce0c21165530dcc2c011450767277e92fa96/build_modelnetc/corrupt_utils.py",
+      "revision": "0c82ce0c21165530dcc2c011450767277e92fa96",
+      "upstream_sha256": "bc487dc0e08d3874b9dd004ef74404788049a0737ba73b886a58bb963987fa84",
+      "release_file": "sac/vendor/corrupt_utils_reference.py",
+      "local_sha256": "bc487dc0e08d3874b9dd004ef74404788049a0737ba73b886a58bb963987fa84",
+      "byte_identical": true
+    }
+  ]
+}

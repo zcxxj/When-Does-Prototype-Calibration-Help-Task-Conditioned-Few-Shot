@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "tests_passed": 191,
+  "subtests_passed": 3,
+  "scope": "independent scientific package tests",
+  "environment": "pinned PyTorch/NumPy runtime"
+}

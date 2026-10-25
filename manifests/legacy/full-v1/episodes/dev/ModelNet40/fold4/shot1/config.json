@@ -1,0 +1,10 @@
+{
+  "dataset": "ModelNet40",
+  "fold": 4,
+  "shot": 1,
+  "pool": "dev",
+  "count": 700,
+  "source": "data/ModelNet40_FS/Modelnet40_FS_train.h5",
+  "episode_seed": 200007,
+  "episode_stream": 21
+}

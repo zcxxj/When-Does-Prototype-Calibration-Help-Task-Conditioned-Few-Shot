@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/jiawei-ren/ModelNet-C",
+  "revision": "0c82ce0c21165530dcc2c011450767277e92fa96",
+  "verified_tree_sha": "0c82ce0c21165530dcc2c011450767277e92fa96",
+  "license_paths": [
+    "LICENSE",
+    "PAConv/LICENSE",
+    "PCT/LICENSE",
+    "PointWOLF/LICENSE",
+    "RSMix/LICENSE",
+    "SimpleView/LICENSE",
+    "SimpleView/ScanObjectNN/LICENSE",
+    "SimpleView/pointnet2_pyt/UNLICENSE",
+    "SimpleView/pointnet2_tf/LICENSE",
+    "SimpleView/pointnet_pyt/LICENSE",
+    "SimpleView/rs_cnn/LICENSE"
+  ],
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "license_url": "https://raw.githubusercontent.com/jiawei-ren/ModelNet-C/0c82ce0c21165530dcc2c011450767277e92fa96/LICENSE"
+}

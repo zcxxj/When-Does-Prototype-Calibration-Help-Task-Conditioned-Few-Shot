@@ -1,0 +1,16 @@
+{
+  "version": "review1-evidence-v1",
+  "main_method": "E2",
+  "new_family": "D",
+  "new_methods": ["D0", "D2"],
+  "reused_methods": ["P0", "E2"],
+  "datasets": ["ModelNet40", "ShapeNet70"],
+  "folds": [0, 1, 2, 3, 4],
+  "shots": [1, 5],
+  "training_seeds": [7],
+  "checkpoint": "best",
+  "episodes": 700,
+  "conditions": "clean_and_full_query_7x5",
+  "excluded_calibration_controls": ["UNIT", "QONLY", "SOFTK"],
+  "test_previously_viewed": false
+}

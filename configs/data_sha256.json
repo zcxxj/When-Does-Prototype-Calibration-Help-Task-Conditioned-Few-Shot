@@ -1,0 +1,14 @@
+{
+  "files": [
+    {"dataset":"ModelNet40_FS","path":"data/ModelNet40_FS/Modelnet40_FS_test.h5","sha256":"e4b772dca05c786ae95986eeed438b0700bb72f178e2be299316fbb60adf8725","bytes":64645379},
+    {"dataset":"ModelNet40_FS","path":"data/ModelNet40_FS/Modelnet40_FS_train.h5","sha256":"58f62c00d11a4853893b7b99db7a5e9e03b250a7cbc5808949469b749b7be839","bytes":192050553},
+    {"dataset":"ShapeNet70_FS","path":"data/ShapeNet70_FS/ShapeNet70_FS_test.h5","sha256":"c3e8861f2997b82212f00191eb78d138ac39e2034b47dab5e8f43cba213527e4","bytes":179712279},
+    {"dataset":"ShapeNet70_FS","path":"data/ShapeNet70_FS/ShapeNet70_FS_train.h5","sha256":"9163f0c2e2baeccba0d84ef6174a01022bbafc7fbad00fa828aeb7b1b1d73213","bytes":453274036},
+    {"dataset":"ScanObjectNN_FS","path":"data/ScanObjectNN_FS/test_scanobjectnn_PB_T50_RS_fsl_1.h5","sha256":"f7666e2834d7e911a919c4307a920b8f63938f4024b3d1b2f4b33a26ce008897","bytes":100802425},
+    {"dataset":"ScanObjectNN_FS","path":"data/ScanObjectNN_FS/test_scanobjectnn_PB_T50_RS_fsl_2.h5","sha256":"147ad7076fb6ca074725da348d0030509decf195667d68b28ddede618c2026ee","bytes":110959171},
+    {"dataset":"ScanObjectNN_FS","path":"data/ScanObjectNN_FS/test_scanobjectnn_PB_T50_RS_fsl_3.h5","sha256":"d10ff789dafc7623f436556b77c63d0fb15fc7580845830f2c894e9f7fd01c77","bytes":91371640},
+    {"dataset":"ScanObjectNN_FS","path":"data/ScanObjectNN_FS/train_scanobjectnn_PB_T50_RS_fsl_1.h5","sha256":"751aca0555b8f8cacda4a4da05906643c6ac460f8c8a4272e1ce7e6de0013402","bytes":206194260},
+    {"dataset":"ScanObjectNN_FS","path":"data/ScanObjectNN_FS/train_scanobjectnn_PB_T50_RS_fsl_2.h5","sha256":"62d413b0429031a2965b138dfc19853f841a0c219b8b66151437659e2e169ae6","bytes":196599488},
+    {"dataset":"ScanObjectNN_FS","path":"data/ScanObjectNN_FS/train_scanobjectnn_PB_T50_RS_fsl_3.h5","sha256":"1088cfa9e248f4dde76f638c8d068c3aa7fe6b479068039651ae12ff2f28dd52","bytes":215815571}
+  ]
+}

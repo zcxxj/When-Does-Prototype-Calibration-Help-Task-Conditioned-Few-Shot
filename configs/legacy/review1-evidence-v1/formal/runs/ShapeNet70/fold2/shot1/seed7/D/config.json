@@ -1,0 +1,30 @@
+{
+  "dataset": "ShapeNet70",
+  "fold": 2,
+  "shot": 1,
+  "seed": 7,
+  "family": "D",
+  "data_root": "data",
+  "smoke": false,
+  "epochs": 80,
+  "train_episodes": 400,
+  "val_episodes": 600,
+  "patience": 30,
+  "lr": 0.0008,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0,
+  "step_size": 5,
+  "gamma": 0.5,
+  "points": 512,
+  "query": 15,
+  "way": 5,
+  "split_seed": 7,
+  "seed_algorithm": "numpy.SeedSequence([seed,dataset_id,fold,shot,stream,epoch])",
+  "selection": "logits_before",
+  "fp32": true,
+  "tf32": false
+}

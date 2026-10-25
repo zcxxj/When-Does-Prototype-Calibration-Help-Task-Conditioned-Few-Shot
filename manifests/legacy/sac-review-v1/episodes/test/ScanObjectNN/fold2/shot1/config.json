@@ -1,0 +1,10 @@
+{
+  "dataset": "ScanObjectNN",
+  "fold": 2,
+  "shot": 1,
+  "pool": "test",
+  "count": 700,
+  "source": "data/ScanObjectNN_FS/test_scanobjectnn_PB_T50_RS_fsl_3.h5",
+  "episode_seed": 100007,
+  "episode_stream": 20
+}

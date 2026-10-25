@@ -1,0 +1,21 @@
+{
+  "protocol": "imbalanced",
+  "dataset": "ModelNet40",
+  "shot": 1,
+  "fold": 0,
+  "pool": "test",
+  "count": 700,
+  "quotas": [
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "retained_queries": 60,
+  "sampling_seed": 500007,
+  "sampling_stream": 22,
+  "source_manifest_sha256": "5e4cd121171c9bb6b52382ce7ace0510371a90647a35465fca391d7839d64bf9",
+  "source_config_sha256": "2b32f83b408b4b5411b05cc56abbe130a4138f3929987a90d5b709d258fdbf4c",
+  "point_indices_sha256": "aa6c41a95300fe5f2222e37e38468da8346f9382c2b0089a7ba8626665bb12f0"
+}

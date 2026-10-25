@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "expected_cells": 8760,
+  "present_cells": 8760,
+  "independent_package_only": true,
+  "files": [
+    {
+      "path": "per_seed.csv",
+      "bytes": 504762,
+      "sha256": "b4b1d7a0974391f3af48a0e63fa2ddcb81660a66b525d447b7b5be3ce4c407e1",
+      "byte_identical": true
+    },
+    {
+      "path": "per_fold.csv",
+      "bytes": 7192297,
+      "sha256": "e6856d14bb4c8cdd6ce3e8a30d95e58821c97c84d84c65fb347c086e109b5bc8",
+      "byte_identical": true
+    },
+    {
+      "path": "paired_effects.csv",
+      "bytes": 1531463,
+      "sha256": "8ee5743935ec8b51f41c478994cd68b9658f596cadf73aeb7900cd7745b47c9f",
+      "byte_identical": true
+    },
+    {
+      "path": "seed_summary.csv",
+      "bytes": 926725,
+      "sha256": "f8270c9752fe8ae6de574ecc6c612a747984ea4a7579a498eb5bf68d112c97fd",
+      "byte_identical": true
+    },
+    {
+      "path": "diagnostics.csv",
+      "bytes": 19904124,
+      "sha256": "f365c781ac6fde9c0b7c1443fd393cc5a64283e41b6d631d4d96b6754ce62e9f",
+      "byte_identical": true
+    },
+    {
+      "path": "status.json",
+      "bytes": 86,
+      "sha256": "4f5db680f6d8c5c1194f2d4c85801da8b123259dc04d295370557d5dfc974b2a",
+      "byte_identical": true
+    },
+    {
+      "path": "coverage.json",
+      "bytes": 261,
+      "sha256": "e46dd476f198931757b1e801b6aa7e76e7737bc8f514f7e84f4eda6ab51d09cb",
+      "byte_identical": true
+    }
+  ]
+}

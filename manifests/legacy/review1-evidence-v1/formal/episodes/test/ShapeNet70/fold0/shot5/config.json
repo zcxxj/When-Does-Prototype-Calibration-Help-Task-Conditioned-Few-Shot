@@ -1,0 +1,10 @@
+{
+  "dataset": "ShapeNet70",
+  "fold": 0,
+  "shot": 5,
+  "pool": "test",
+  "count": 700,
+  "source": "data/ShapeNet70_FS/ShapeNet70_FS_test.h5",
+  "episode_seed": 100007,
+  "episode_stream": 20
+}

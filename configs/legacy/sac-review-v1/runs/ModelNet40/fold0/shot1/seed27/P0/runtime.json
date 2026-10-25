@@ -1,0 +1,13 @@
+{
+  "torch": "2.13.0+cu130",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "init_seed": 3734499553,
+  "init_seed_array": [
+    27,
+    0,
+    0,
+    1,
+    1,
+    0
+  ]
+}

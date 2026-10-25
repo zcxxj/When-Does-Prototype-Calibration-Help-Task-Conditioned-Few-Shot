@@ -1,0 +1,463 @@
+{
+  "complete": true,
+  "compared_cells": 2480,
+  "input_pairing_equal": true,
+  "query_predictions": 130200000,
+  "changed_query_predictions": 1378,
+  "changed_cells": 418,
+  "max_abs_cell_accuracy_difference_pp": 0.017142857142860013,
+  "max_abs_matched_scope_seed_difference_pp": 0.0011428571428573342,
+  "max_abs_matched_scope_three_seed_mean_difference_pp": 0.0003809523809531849,
+  "matched_scope": "clean and query means; query averages all severities for 1-shot, severity 3 for 5-shot",
+  "reused_scope": "5-shot seed 7 uses the same historical records and therefore has zero repeat difference",
+  "devices": [
+    {
+      "new_gpu": "NVIDIA GeForce RTX 4090",
+      "prior_gpu": "NVIDIA GeForce RTX 4090",
+      "compared_cells": 1552,
+      "query_predictions": 81480000,
+      "changed_predictions": 0
+    },
+    {
+      "new_gpu": "NVIDIA GeForce RTX 5090",
+      "prior_gpu": "NVIDIA GeForce RTX 4090",
+      "compared_cells": 928,
+      "query_predictions": 48720000,
+      "changed_predictions": 1378
+    }
+  ],
+  "per_seed_scope_differences": [
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "P0",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "P0",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.00038095238095392503
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "P0",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "P0",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": -0.00013061224489798105
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "P0",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": -0.00017414965986401704
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "P0",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -6.53061224491174e-05
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "E2",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "E2",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.0007619047619056296
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "E2",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "E2",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": -0.00010884353741505823
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "E2",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": -1.0884353741477274e-05
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 1,
+      "method": "E2",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -7.619047619040436e-05
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "P0",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "P0",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.0007619047619056296
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "P0",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "P0",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "P0",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": -0.00032653061224526984
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "P0",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -0.00010884353741508994
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "E2",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "E2",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.0003809523809517046
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "E2",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "E2",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "E2",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 5.4421768707386366e-05
+    },
+    {
+      "dataset": "ModelNet40",
+      "shot": 5,
+      "method": "E2",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -3.1720657846433045e-16
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "P0",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": -0.00038095238095392503
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "P0",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "P0",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -0.0007619047619056296
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "P0",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": 0.0001414965986395852
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "P0",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.00010884353741489962
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "P0",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -1.9032394707859825e-16
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "E2",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "E2",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "E2",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -0.0011428571428573342
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "E2",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": false,
+      "difference_pp": 0.00018503401360555775
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "E2",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": -0.00013061224489791762
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 1,
+      "method": "E2",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -2.176870748320831e-05
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "P0",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "P0",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "P0",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "P0",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "P0",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": -5.4421768707386366e-05
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "P0",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": 3.1720657846433045e-16
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "E2",
+      "side": "clean",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "E2",
+      "side": "clean",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "E2",
+      "side": "clean",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "E2",
+      "side": "query",
+      "seed": 7,
+      "reused_identical_record": true,
+      "difference_pp": 0.0
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "E2",
+      "side": "query",
+      "seed": 17,
+      "reused_identical_record": false,
+      "difference_pp": -3.1720657846433045e-16
+    },
+    {
+      "dataset": "ShapeNet70",
+      "shot": 5,
+      "method": "E2",
+      "side": "query",
+      "seed": 27,
+      "reused_identical_record": false,
+      "difference_pp": -5.4421768707703577e-05
+    }
+  ]
+}

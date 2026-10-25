@@ -1,0 +1,33 @@
+{
+  "device": "cpu",
+  "dataset": "ModelNet40",
+  "shot": 5,
+  "seed": 7,
+  "fold": 0,
+  "checks": [
+    {
+      "condition": "clean",
+      "methods": [
+        "P0",
+        "E2",
+        "UNIT",
+        "QONLY",
+        "SOFTK"
+      ],
+      "logits_bitwise_equal": true,
+      "predictions_identical": true
+    },
+    {
+      "condition": "query_drop",
+      "methods": [
+        "P0",
+        "E2",
+        "UNIT",
+        "QONLY",
+        "SOFTK"
+      ],
+      "logits_bitwise_equal": true,
+      "predictions_identical": true
+    }
+  ]
+}

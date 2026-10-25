@@ -1,0 +1,173 @@
+{
+  "complete": true,
+  "scope": "Two real one-episode CUDA command-line runs; not full matrix accuracy evidence",
+  "entry": "python -m sac.review_evaluate --empirical",
+  "freeze_prepared": true,
+  "independent_import_root": ".",
+  "exported_config_matches_checkpoint": true,
+  "prediction_cells": 10,
+  "diagnostic_cells": 10,
+  "imbalanced_resume_verified": true,
+  "cells": [
+    {
+      "protocol": "balanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 17,
+      "method": "E2",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "e2ad00d17b24d0a5352d2c7d59ca4f7a87adbed27f0e6a37fd9f1a04cc2e0d01",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "balanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 17,
+      "method": "P0",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "e2ad00d17b24d0a5352d2c7d59ca4f7a87adbed27f0e6a37fd9f1a04cc2e0d01",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "balanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 17,
+      "method": "QONLY",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "e2ad00d17b24d0a5352d2c7d59ca4f7a87adbed27f0e6a37fd9f1a04cc2e0d01",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "balanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 17,
+      "method": "SOFTK",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "e2ad00d17b24d0a5352d2c7d59ca4f7a87adbed27f0e6a37fd9f1a04cc2e0d01",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "balanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 17,
+      "method": "UNIT",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "e2ad00d17b24d0a5352d2c7d59ca4f7a87adbed27f0e6a37fd9f1a04cc2e0d01",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "imbalanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "method": "E2",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "cda9c05969cbdc19962c68d6cb71af3d0d63b5264316fe3e061377d98bee573a",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "imbalanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "method": "P0",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "cda9c05969cbdc19962c68d6cb71af3d0d63b5264316fe3e061377d98bee573a",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "imbalanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "method": "QONLY",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "cda9c05969cbdc19962c68d6cb71af3d0d63b5264316fe3e061377d98bee573a",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "imbalanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "method": "SOFTK",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "cda9c05969cbdc19962c68d6cb71af3d0d63b5264316fe3e061377d98bee573a",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    },
+    {
+      "protocol": "imbalanced",
+      "dataset": "ModelNet40",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "method": "UNIT",
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "checkpoint_sha256": "cda9c05969cbdc19962c68d6cb71af3d0d63b5264316fe3e061377d98bee573a",
+      "scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+      "gpu": "NVIDIA GeForce RTX 5090"
+    }
+  ]
+}

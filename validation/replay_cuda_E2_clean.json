@@ -1,0 +1,29 @@
+{
+  "episode": 0,
+  "method": "E2",
+  "predictions_identical": true,
+  "logits_close": true,
+  "max_absolute_logit_error": {
+    "logits_before": 2.288818359375e-05,
+    "logits_after": 1.9073486328125e-05
+  },
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5090",
+  "dataset": "ModelNet40",
+  "fold": 0,
+  "shot": 5,
+  "seed": 7,
+  "condition": [
+    "clean",
+    null,
+    0
+  ],
+  "rtol": 0.0001,
+  "atol": 0.0001,
+  "input_sha256": {
+    "checkpoint": "cda9c05969cbdc19962c68d6cb71af3d0d63b5264316fe3e061377d98bee573a",
+    "manifest": "1237bc949fd594d6dc31962ef5cabc6f99445362785827181968343766f9e243",
+    "points": "42f64fe587690fdee9995d99aad6358504496f79a81e2b28f7f289354501f5c3",
+    "prediction": "650e9ed690a6e7721c78b79d2a0582e60cc15b4d6132d5bc794dbfde8376ec07"
+  }
+}

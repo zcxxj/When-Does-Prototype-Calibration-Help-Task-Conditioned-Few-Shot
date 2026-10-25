@@ -1,0 +1,125 @@
+{
+  "complete": true,
+  "scope": "Retained historical evidence; excludes the expanded 8760-cell matrix",
+  "command": "python scripts/rebuild_evidence.py --group legacy --output outputs/rebuilt",
+  "independent_import_root": ".",
+  "groups": {
+    "legacy": {
+      "legacy_prediction_cells": 7136,
+      "diagnostic_coverage": {
+        "expected": 600,
+        "present": 600,
+        "complete": true,
+        "missing_keys": []
+      },
+      "dgcnn_prediction_cells": 1440,
+      "dgcnn_reference_cells": 1440,
+      "efficiency_measurements": 960
+    }
+  },
+  "primary_audit": {
+    "complete": true,
+    "prediction_files": 4320,
+    "per_seed_contrasts": 36,
+    "seed_summary_rows": 28,
+    "tolerance_pp": 1e-10,
+    "raw_accuracy_recomputed": true,
+    "conditional_bootstrap_recomputed": true,
+    "seed_sample_sd_ddof": 1,
+    "scope": "P0/E2, best, two synthetic datasets, 1/5-shot, seeds 7/17/27, five folds, clean and all query operators/severities"
+  },
+  "report_files": [
+    {
+      "path": "outputs/rebuilt/dgcnn/REPORT.md",
+      "sha256": "3f6c0310c8722c92173ce95daec56232dfa5bb629e7a5725f4402752a75c4e0d"
+    },
+    {
+      "path": "outputs/rebuilt/dgcnn/cells.csv",
+      "sha256": "dfcc3e5b2afbc1e733b8358d40925fd273bd830dd10bc09174d4ad32e9773e33"
+    },
+    {
+      "path": "outputs/rebuilt/dgcnn/contrasts.csv",
+      "sha256": "54b6a69ce88e9f228fb3d6b6d70ffc1423fa0d83a7a192718bdb77e618c0b76c"
+    },
+    {
+      "path": "outputs/rebuilt/dgcnn/coverage.json",
+      "sha256": "6268624489c87582cf5bb3e347dcbc245d772c0bc9ba6f0e542425aef529fff6"
+    },
+    {
+      "path": "outputs/rebuilt/efficiency/benchmark.json",
+      "sha256": "5ffb8379f29f594c868575daaaf04b42e9bc3e8d6dc70d1743bc5122aefe8497"
+    },
+    {
+      "path": "outputs/rebuilt/efficiency/validation.json",
+      "sha256": "c3f7a89ec3efefa0a48e994167c79571d609f7a6be0565c64ace40c740791c2c"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/ablation.csv",
+      "sha256": "1337f344f485e40e97bfcf91bd74adb314450cd6b92d1fe93fdf639c76da04e6"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/cells.csv",
+      "sha256": "141a63b64a246dc5b1c2303b9062409e92679c59dee637a98874dac1e842b070"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/coverage.json",
+      "sha256": "6928ccb723669f134496d0eb7ba8f02c7c5d5801aab4a56c5372064b971b93eb"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/diagnostics.csv",
+      "sha256": "f9ece23d18538d441d8978903378e4f097f9f35873cba8b9be7cad872ef6c7c8"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/paired_effects.csv",
+      "sha256": "70313480f0126fb84a9e3ec8f74525cdeb6044da95b239736d3433bf961ae0ca"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/per_fold.csv",
+      "sha256": "b821631d2087c1e20cfdfbbe93399f655722a92dac10ae48cf568ea4180f76d8"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/per_seed.csv",
+      "sha256": "801243b5af3c769f2baaebd320e2a60c94203b86b701acb7db45a3f9365488cd"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/protocol_clean_best_last.csv",
+      "sha256": "0f4c43c765c3f9387cf4531b8506977c28981862115c8be48d6e8f69fc07624e"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/protocol_main.csv",
+      "sha256": "05f38a5a5c19b56510daa346c20fe79f0ff53aace000a58639c09e7aefb12d18"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/robust_query.csv",
+      "sha256": "39f54f4145ad87b45955b8bcf6f6f69fd2d1b4e95c56f55bd0a56c4200b6815a"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/seed_summary.csv",
+      "sha256": "1d3d6e72d2f857f297fcbb0ed4ccd50ff1659ab92b64935cdb7d9b661b601b8a"
+    },
+    {
+      "path": "outputs/rebuilt/legacy/status.json",
+      "sha256": "d6da6a61138627e3ed2c545e68925c42191e3bd3edcdf1bc6f076b0159e4a110"
+    },
+    {
+      "path": "outputs/rebuilt/legacy_primary_audit/audit.json",
+      "sha256": "76c795297a476b3bc55fac5dbcc5b2569a391ab7427ae0880073d0778ce152ff"
+    },
+    {
+      "path": "outputs/rebuilt/legacy_primary_audit/main_per_seed_recomputed.csv",
+      "sha256": "6cfaa526522a2cbcb53d1f0547b74a62efa78dd0f37f395a9b094e407f77dcfa"
+    },
+    {
+      "path": "outputs/rebuilt/legacy_primary_audit/main_seed_summary_recomputed.csv",
+      "sha256": "b608da4364edda615d76c9021062e21d0f0f6987128303370609364006977e4e"
+    },
+    {
+      "path": "outputs/rebuilt/legacy_primary_audit/sources.json",
+      "sha256": "b41151a80c6d4bafd5e1417b366c0c61414e47cdddf5fc5fa3c669e0e6908d76"
+    },
+    {
+      "path": "outputs/rebuilt/rebuild_status.json",
+      "sha256": "1674beea3e6570d9a87846e1ac7efa3fe1b778f77e3ac8e4b35b75572219c92b"
+    }
+  ]
+}

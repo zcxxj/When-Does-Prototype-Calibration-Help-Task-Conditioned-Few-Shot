@@ -1,0 +1,13 @@
+{
+  "scope": "Four real legacy balanced ModelNet40 fold0 shot5 seed7 P0/E2 clean and query Drop-Global severity3 cells; subset portability verification only",
+  "raw_arrays_unchanged": true,
+  "original_prediction_hashes_verified": true,
+  "metadata_hashes_recomputed": true,
+  "checkpoint_identity": "source",
+  "report_status": {
+    "complete": false,
+    "status": "partial",
+    "expected": 4,
+    "present": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "protocol": "imbalanced",
+  "dataset": "ShapeNet70",
+  "shot": 5,
+  "fold": 0,
+  "pool": "test",
+  "count": 700,
+  "quotas": [
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "retained_queries": 60,
+  "sampling_seed": 500007,
+  "sampling_stream": 22,
+  "source_manifest_sha256": "f873d472f05e39c9b2d90c4ee198f1ad4b9fd84cb53ce41f5f80bdc087f16c25",
+  "source_config_sha256": "2128b625ec373d80174a103f021ab17e13f67b37734fea8773ebb609e7344357",
+  "point_indices_sha256": "a6556a0dd101363e28459a2bf1c1483f61f1ead052b9980ecec41038ed3c9c88"
+}

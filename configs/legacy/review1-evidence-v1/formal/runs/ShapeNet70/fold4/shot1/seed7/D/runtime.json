@@ -1,0 +1,13 @@
+{
+  "torch": "2.10.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "init_seed": 430118084,
+  "init_seed_array": [
+    7,
+    1,
+    4,
+    1,
+    1,
+    0
+  ]
+}

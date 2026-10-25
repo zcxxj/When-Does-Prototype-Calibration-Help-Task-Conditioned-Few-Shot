@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "matrix_cells": 8760,
+  "reused_cells": 600,
+  "new_frontend_jobs": 1920,
+  "new_frontend_episodes": 1344000,
+  "strict_loaded_weights": 224,
+  "tensors_equal": true,
+  "independent_raw_report": true,
+  "legacy_reports_rebuilt": true,
+  "scientific_tests_passed": 191,
+  "scientific_subtests_passed": 3,
+  "scientific_code_unchanged": true,
+  "receipts": [
+    "matrix_export.json",
+    "study_rebuild.json",
+    "legacy_rebuild.json",
+    "retained_inference_cuda.json",
+    "empirical_cli_inference.json",
+    "numerical_repeat/summary.json",
+    "portability.json"
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "checkpoint": "attachments/legacy/full-v1/runs/ModelNet40/fold0/shot5/seed7/H/best.pt",
+  "strict_load": true,
+  "tensors_equal": true,
+  "tensors": [
+    {
+      "name": "backbone.Econv1.Conv.0.weight",
+      "shape": [
+        64,
+        6,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e70ab2ffd837d072a5bede8d536e3e8cf537c0cc58e78a1d7b6f43c2f463d594"
+    },
+    {
+      "name": "backbone.Econv1.Conv.1.weight",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "40fac044dc498ad74f6c1b594a95ed059b3e0a9e6475640993f6f1e02d1aa12a"
+    },
+    {
+      "name": "backbone.Econv1.Conv.1.bias",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "2e3f198e78885c757f39bcfcaddff20534078ab6b464a10368c218432ec36c15"
+    },
+    {
+      "name": "backbone.Econv1.Conv.1.running_mean",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "ef38a51017c7bde13367a4907c866fe68f265625b86e7dba058633e64d5d8c35"
+    },
+    {
+      "name": "backbone.Econv1.Conv.1.running_var",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "62ff4f25dbf3a4eaeda8d3853d49a21e491fcd78d874c82217e120b0e74b7eb8"
+    },
+    {
+      "name": "backbone.Econv1.Conv.1.num_batches_tracked",
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "c7661437917a4e57593775e68c8bfcde10508d48e21d627accb76b28b90de0ab"
+    },
+    {
+      "name": "backbone.Econv2.Conv.0.weight",
+      "shape": [
+        64,
+        128,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "b66f9d7a5edbed78bd60a1546f1d06d882d2bd5f4dd5c6291f350c38de7cb962"
+    },
+    {
+      "name": "backbone.Econv2.Conv.1.weight",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8b09aa583d46098fa97adb217b4db63f016a87ef261b15276afd0c1eeef6845b"
+    },
+    {
+      "name": "backbone.Econv2.Conv.1.bias",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "4615795835f26c0cf4e8748c36a354ffedf38db8b62b3396acb09b60fc340351"
+    },
+    {
+      "name": "backbone.Econv2.Conv.1.running_mean",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "cec4752fef984c888a4718a09e6069dc2fdd8ddeaec945145e5d240e333f4914"
+    },
+    {
+      "name": "backbone.Econv2.Conv.1.running_var",
+      "shape": [
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "759f143f552af382efda9050344c716f9bc2c6544da20caf96335140d837d081"
+    },
+    {
+      "name": "backbone.Econv2.Conv.1.num_batches_tracked",
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "c7661437917a4e57593775e68c8bfcde10508d48e21d627accb76b28b90de0ab"
+    },
+    {
+      "name": "backbone.Econv3.Conv.0.weight",
+      "shape": [
+        128,
+        128,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "d5c23e44780bfc9b1005ae5430df785682a0f24b484712a8e9c118dd134ff3b6"
+    },
+    {
+      "name": "backbone.Econv3.Conv.1.weight",
+      "shape": [
+        128
+      ],
+      "dtype": "torch.float32",
+      "sha256": "0aa4fce0a1b9c356edd992b37d47b94d1b8117e499ec7081125d089f791f5144"
+    },
+    {
+      "name": "backbone.Econv3.Conv.1.bias",
+      "shape": [
+        128
+      ],
+      "dtype": "torch.float32",
+      "sha256": "3d7aee9ecc047a2868790d541a00d1dc00f9d06e6635ec962e1012ff76eb8df5"
+    },
+    {
+      "name": "backbone.Econv3.Conv.1.running_mean",
+      "shape": [
+        128
+      ],
+      "dtype": "torch.float32",
+      "sha256": "c5c728ee499e392915c141df2749780478cdc323a4256cc1acf45928595c52f4"
+    },
+    {
+      "name": "backbone.Econv3.Conv.1.running_var",
+      "shape": [
+        128
+      ],
+      "dtype": "torch.float32",
+      "sha256": "9821ee3144dbcc32971f570f1430f94bb605560b6cb174ee706a2884db1cc030"
+    },
+    {
+      "name": "backbone.Econv3.Conv.1.num_batches_tracked",
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "c7661437917a4e57593775e68c8bfcde10508d48e21d627accb76b28b90de0ab"
+    },
+    {
+      "name": "backbone.Econv4.Conv.0.weight",
+      "shape": [
+        256,
+        256,
+        1,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "b4bf9187e5e933f59411b9fc32cc4146b26fb40fe6362f21a7f6d97d162257c7"
+    },
+    {
+      "name": "backbone.Econv4.Conv.1.weight",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "e7710655c4dd03b2f064e052cb0bd9f52663d9c805ef39fb9564c3810ff0f5b0"
+    },
+    {
+      "name": "backbone.Econv4.Conv.1.bias",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "fd05d8eb2442d63702f9025373430f0a4c52a2508f406ff3aa123ba90d93446d"
+    },
+    {
+      "name": "backbone.Econv4.Conv.1.running_mean",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "c50e5e5498770df08fa540dbd4813ceeafd8346ba2aaeabef51a829c97ca6940"
+    },
+    {
+      "name": "backbone.Econv4.Conv.1.running_var",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "f98aa4d48ac843ca0bc9abb8be523d3338de8c8d02da251cfd465e4bf61a11b9"
+    },
+    {
+      "name": "backbone.Econv4.Conv.1.num_batches_tracked",
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "c7661437917a4e57593775e68c8bfcde10508d48e21d627accb76b28b90de0ab"
+    },
+    {
+      "name": "backbone.MLP.0.weight",
+      "shape": [
+        1024,
+        512,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "161428029ffb4ecdcb6f72cad282a81f3b7bd97bc6a60f0489c9e91336e51163"
+    },
+    {
+      "name": "backbone.MLP.1.weight",
+      "shape": [
+        1024
+      ],
+      "dtype": "torch.float32",
+      "sha256": "49e75d7b25c31ced50a402365a9d3a738417b82b6e9182edb65903ca271409a1"
+    },
+    {
+      "name": "backbone.MLP.1.bias",
+      "shape": [
+        1024
+      ],
+      "dtype": "torch.float32",
+      "sha256": "07bb2b4ef98a986efeaf237c264969b4daaeb27fcf1d1d31b39cf042d2f55695"
+    },
+    {
+      "name": "backbone.MLP.1.running_mean",
+      "shape": [
+        1024
+      ],
+      "dtype": "torch.float32",
+      "sha256": "29793cd8dccaa7bff05a21a13e7a8115b0ecdcd6ed13d2311115e6843d287b53"
+    },
+    {
+      "name": "backbone.MLP.1.running_var",
+      "shape": [
+        1024
+      ],
+      "dtype": "torch.float32",
+      "sha256": "10dbe8822af1f3100923693bf46f14c4ae374ad5fb358c3078d8cd5ec2dbfa85"
+    },
+    {
+      "name": "backbone.MLP.1.num_batches_tracked",
+      "shape": [],
+      "dtype": "torch.int64",
+      "sha256": "c7661437917a4e57593775e68c8bfcde10508d48e21d627accb76b28b90de0ab"
+    }
+  ]
+}

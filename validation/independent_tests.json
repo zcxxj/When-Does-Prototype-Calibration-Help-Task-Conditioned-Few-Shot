@@ -1,0 +1,7 @@
+{
+  "passed": 191,
+  "subtests_passed": 3,
+  "duration_seconds": 143.6,
+  "scope": "All exported scientific Python tests, executed from the independent release root",
+  "internal_source_imports": false
+}

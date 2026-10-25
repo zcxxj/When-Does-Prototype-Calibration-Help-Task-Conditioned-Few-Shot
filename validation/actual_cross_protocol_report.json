@@ -1,0 +1,14 @@
+{
+  "scope": "ModelNet40 shot5 seed7 five folds, query Add-Local severity3, P0/E2, balanced historical reuse plus new imbalanced raw predictions",
+  "raw_arrays_unchanged": true,
+  "legacy_prediction_hashes_verified": true,
+  "metadata_hashes_recomputed": true,
+  "checkpoint_identity": "source",
+  "paired_effect_rows": 4,
+  "report_status": {
+    "complete": false,
+    "status": "partial",
+    "expected": 20,
+    "present": 20
+  }
+}

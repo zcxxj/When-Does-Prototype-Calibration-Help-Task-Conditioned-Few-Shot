@@ -1,0 +1,108 @@
+{
+  "complete": true,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5090",
+  "torch_version": "2.13.0+cu130",
+  "comparison": "Original research implementation and original training checkpoint versus independent exported implementation and inference checkpoint, on identical real episode inputs and the same device",
+  "checks": [
+    {
+      "dataset": "ModelNet40",
+      "family": "D",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "episode": 0,
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "original_checkpoint_sha256": "1a1681c8c7c5b89295669e6f3e6e1c74de2faac984cb919efec69f66756f8d1c",
+      "exported_checkpoint_sha256": "6f3aadcd7d6888172af854a57e61eff46d599e75df57c8a39ba51e4bbf37c4b0",
+      "manifest_sha256": "1237bc949fd594d6dc31962ef5cabc6f99445362785827181968343766f9e243",
+      "methods": [
+        {
+          "method": "D0",
+          "predictions_identical": true,
+          "logits_bitwise_equal": true,
+          "max_absolute_logit_error": {
+            "logits_before": 0.0,
+            "logits_after": 0.0
+          }
+        },
+        {
+          "method": "D2",
+          "predictions_identical": true,
+          "logits_bitwise_equal": true,
+          "max_absolute_logit_error": {
+            "logits_before": 0.0,
+            "logits_after": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "ModelNet40",
+      "family": "H",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "episode": 0,
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "original_checkpoint_sha256": "991665ba5d244a82447a63a822e98f2262a09eb03e6f3a02b5a442c37523341d",
+      "exported_checkpoint_sha256": "75dcaa6c7cac9b6691fbecf38b1305f79cd9e8982bc66d35b2ae6ca258ebacac",
+      "manifest_sha256": "1237bc949fd594d6dc31962ef5cabc6f99445362785827181968343766f9e243",
+      "methods": [
+        {
+          "method": "H",
+          "predictions_identical": true,
+          "logits_bitwise_equal": true,
+          "max_absolute_logit_error": {
+            "logits_before": 0.0,
+            "logits_after": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "ScanObjectNN",
+      "family": "P0",
+      "fold": 0,
+      "shot": 5,
+      "seed": 7,
+      "episode": 0,
+      "condition": [
+        "clean",
+        null,
+        0
+      ],
+      "original_checkpoint_sha256": "37db4bcec10e607900556c01eaf23089b6daa541ee0f232f5cd7e45c46ca9663",
+      "exported_checkpoint_sha256": "a9e308b988f5808ae707a22f262aeabb990ccb96b819d817237e099bbafb51fa",
+      "manifest_sha256": "5e48059bea2b92d1e1240ca0ab54d4162bfb407a43ab705a29fe53cfafa9e433",
+      "methods": [
+        {
+          "method": "P0",
+          "predictions_identical": true,
+          "logits_bitwise_equal": true,
+          "max_absolute_logit_error": {
+            "logits_before": 0.0,
+            "logits_after": 0.0
+          }
+        },
+        {
+          "method": "E2",
+          "predictions_identical": true,
+          "logits_bitwise_equal": true,
+          "max_absolute_logit_error": {
+            "logits_before": 0.0,
+            "logits_after": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

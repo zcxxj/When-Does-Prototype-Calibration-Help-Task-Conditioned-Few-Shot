@@ -1,0 +1,44 @@
+{
+  "source_and_exported_scientific_code_identical": false,
+  "scientific_code_sha256": "bc59773bf43a3c07fb2f6d115c47eb94a26a41715099c3201ab8b77be9fc3756",
+  "scientific_code_files": {
+    "corruptions.py": "272d7c8e9d8e4c63d573420fa68ee1177bc4e4afd8f5fd3f02ab28765ad01643",
+    "data.py": "6116349eb12db1e65125223c0c034256723d0ca6943be40e51127da819e789e2",
+    "empirical_sampling.py": "21c7c54bb52c6866a977ec014111d0bf0447d201f75e093bdc1eb68c9081d443",
+    "euclidean.py": "9eda0490645d42e5e73050233c168fce79b72b5edf8c4c9540541e8aa34842a7",
+    "evaluate.py": "6bf6568035289b2033b407622fb2af0e69a401d7209badb88628ed1609dfa350",
+    "hyperbolic.py": "8ae78790542db385c692012232e9b88aac39503b38d4413474a32be3c64b007d",
+    "model.py": "9f75ce986f1baa2d915312457799d428058a53a90b9a8a86f669ad7d39f49d94",
+    "review_diagnostics.py": "77ad7e9a18b8e8a34bfddf43e90c2a025b095ebdee6debf742cd5d5951413eb5",
+    "review_evaluate.py": "5b832a0e59d89974881c3cc7a9a50b4b826f852af92a7c0486353523150d0eb1",
+    "train.py": "eee73027a999d933f5792888fa8e78b830b61ff567569ea7e4c9bc103bced345",
+    "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/corrupt_utils_reference.py": "bc487dc0e08d3874b9dd004ef74404788049a0737ba73b886a58bb963987fa84",
+    "vendor/dgcnn.py": "63ce2196696ad0d460c6a4896c85185b87f569f1928860cff174ffeab3a0eb11",
+    "vendor/hpr_pmath.py": "ea059fc02afb32f3d2eae85fbcadc04b61b821aae90f01bbea7bb03293efd3f3",
+    "vendor/pcia.py": "02ce38bb4d75db4a1dc4c50ef3d66c8e79fc839f1a2df3054b24341a9c29585c"
+  },
+  "source_scientific_code_sha256": "65ba2c3082b8101e68c16fa5b4445f1ac2b3d56a4af1b1db38bec0e641358153",
+  "source_scientific_code_files": {
+    "corruptions.py": "272d7c8e9d8e4c63d573420fa68ee1177bc4e4afd8f5fd3f02ab28765ad01643",
+    "data.py": "6116349eb12db1e65125223c0c034256723d0ca6943be40e51127da819e789e2",
+    "empirical_sampling.py": "21c7c54bb52c6866a977ec014111d0bf0447d201f75e093bdc1eb68c9081d443",
+    "euclidean.py": "9eda0490645d42e5e73050233c168fce79b72b5edf8c4c9540541e8aa34842a7",
+    "evaluate.py": "093d522bbd2cfef8dac217e99fcc8e653d8fc9e27038a7875e3c1830f4628366",
+    "hyperbolic.py": "8ae78790542db385c692012232e9b88aac39503b38d4413474a32be3c64b007d",
+    "model.py": "9f75ce986f1baa2d915312457799d428058a53a90b9a8a86f669ad7d39f49d94",
+    "review_diagnostics.py": "77ad7e9a18b8e8a34bfddf43e90c2a025b095ebdee6debf742cd5d5951413eb5",
+    "review_evaluate.py": "5b832a0e59d89974881c3cc7a9a50b4b826f852af92a7c0486353523150d0eb1",
+    "train.py": "eee73027a999d933f5792888fa8e78b830b61ff567569ea7e4c9bc103bced345",
+    "vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/corrupt_utils_reference.py": "bc487dc0e08d3874b9dd004ef74404788049a0737ba73b886a58bb963987fa84",
+    "vendor/dgcnn.py": "63ce2196696ad0d460c6a4896c85185b87f569f1928860cff174ffeab3a0eb11",
+    "vendor/hpr_pmath.py": "ea059fc02afb32f3d2eae85fbcadc04b61b821aae90f01bbea7bb03293efd3f3",
+    "vendor/pcia.py": "02ce38bb4d75db4a1dc4c50ef3d66c8e79fc839f1a2df3054b24341a9c29585c"
+  },
+  "changed_scientific_code_files": [
+    "evaluate.py"
+  ],
+  "change_scope": "Experiment-timeline metadata only; algorithms, hyperparameters, and numerical operations are unchanged.",
+  "validation_scope": "Experimental validation receipts refer to the original release. Experiments were not rerun for this metadata correction."
+}
